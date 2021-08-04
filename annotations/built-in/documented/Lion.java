@@ -1,0 +1,1 @@
+@Hunter public class Lion {}
