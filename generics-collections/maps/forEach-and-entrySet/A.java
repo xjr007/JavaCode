@@ -14,6 +14,7 @@ public class A {
 		map.entrySet().forEach(e -> 
 				System.out.println( e.getKey() + e.getValue() )
 				);
+		System.out.println(map.entrySet());
 
 	}
 	public static void main(String[] args) {

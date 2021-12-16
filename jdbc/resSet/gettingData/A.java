@@ -13,7 +13,7 @@ public class A {
 			ResultSet rs = ps.executeQuery();
 		) {
 			while(rs.next()) {
-				int studentNo = rs.getInt("stuidentNo");
+				int studentNo = rs.getInt("studentNo");
 				String name = rs.getString("name");
 				mapStudents.put(studentNo, name);
 			}
